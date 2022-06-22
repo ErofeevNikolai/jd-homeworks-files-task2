@@ -65,6 +65,7 @@ public class Main {
                 zout.write(buffer);
                 // закрываем поток создания zip
                 zout.closeEntry();
+                // закрываем поток file
                 iputSteam.close();
             }
         } catch (Exception ex) {
