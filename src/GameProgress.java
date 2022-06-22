@@ -13,6 +13,7 @@ public class GameProgress implements Serializable {
         this.weapons = weapons;
         this.lvl = lvl;
         this.distance = distance;
+
     }
 
     @Override

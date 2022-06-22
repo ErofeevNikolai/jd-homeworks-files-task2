@@ -40,9 +40,7 @@ public class Main {
         }
     }
 
-    /*
-    Метод записывающий созданные файлы сохранения в архив
-    */
+    // Метод записывающий созданные файлы сохранения в архив
     public static void zipFiles(String directory, ArrayList<String> listObjects) {
         // заводим счетчик для очередности имени
         int namberSave = 0;
@@ -74,9 +72,7 @@ public class Main {
         }
     }
 
-    /*
-    Метод удаления файлов из папки
-     */
+    // Метод удаления файлов из папки
     public static void dellSave() {
         for (String filePath : listSave) {
             File currentFile = new File(filePath);
